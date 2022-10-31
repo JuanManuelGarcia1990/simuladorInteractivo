@@ -20,19 +20,19 @@ function iniciarConsulta() {
 
     switch(seleccion) {
         case "a":
-            mensajeCosto = "El Monitor Samsung 24 pulgadas vale $ 62599.00"
+            mensajeCosto = "El Monitor Samsung 24 pulgadas vale $ 62599"
             break
         case "b":
-            mensajeCosto = "El Cpu Ryzen5 3400G Ssd 1tb 16gb vale $ 123859.00"
+            mensajeCosto = "El Cpu Ryzen5 3400G Ssd 1tb 16gb vale $ 123859"
             break
         case "c":
-            mensajeCosto = "El Cpu Ryzen7 5700G Ssd 1tb 32gb vale $ 175500.00"
+            mensajeCosto = "El Cpu Ryzen7 5700G Ssd 1tb 32gb vale $ 175500"
             break
         case "d":
             mensajeCosto = "El Cpu I7 10700F GTX 1660TI 6GB Ssd 1tb 32gb vale $ 245879"
             break
         case "e":
-            mensajeCosto = "El Teclado mecánico gamer Philips $ 7850.00"
+            mensajeCosto = "El Teclado mecánico gamer Philips $ 7850"
             break
         case "f":
             mensajeCosto = "El Mouse Gamer Logitech $ 12300"
