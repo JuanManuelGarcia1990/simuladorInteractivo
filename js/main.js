@@ -1,11 +1,11 @@
 const carrito = []
 
-const productos = [{imagen: '', codigo: 1, tipo: 'Monitor Samsung 24 pulgadas', precio: 62599},
-                   {imagen: '', codigo: 2, tipo: 'Cpu Ryzen5 3400G Ssd 1tb 16gb', precio: 123859},
-                   {imagen: '', codigo: 3, tipo: 'Cpu Ryzen7 5700G Ssd 1tb 32gb', precio: 175500},
-                   {imagen: '', codigo: 4, tipo: 'Cpu I7 10700F GTX 1660TI 6GB Ssd 1tb 32gb', precio: 245879},
-                   {imagen: '', codigo: 5, tipo: 'Teclado mecánico gamer Philips', precio: 7850},
-                   {imagen: '', codigo: 6, tipo: 'Mouse Gamer Logitech', precio: 12300}]
+const productos = [{codigo: 1, tipo: 'Monitor Samsung 24 pulgadas', precio: 62599},
+                   {codigo: 2, tipo: 'Cpu Ryzen5 3400G Ssd 1tb 16gb', precio: 123859},
+                   {codigo: 3, tipo: 'Cpu Ryzen7 5700G Ssd 1tb 32gb', precio: 175500},
+                   {codigo: 4, tipo: 'Cpu I7 10700F GTX 1660TI 6GB Ssd 1tb 32gb', precio: 245879},
+                   {codigo: 5, tipo: 'Teclado mecánico gamer Philips', precio: 7850},
+                   {codigo: 6, tipo: 'Mouse Gamer Logitech', precio: 12300}]
 
 const mensajeInicial = "Elija el producto por el código numérico:"
 
@@ -17,7 +17,7 @@ function buscarProducto(codigo) {
 function comprar() {
     let codigo = prompt(mensajeInicial)
         if (!parseInt(codigo)) {
-            alert("Error en el código ingresado.")
+            alert("El código ingresado no es válido, intente nuevamente")
             return 
         }
         let productoElegido = buscarProducto(codigo)
@@ -45,7 +45,7 @@ function finalizarCompra() {
     }
     const shopping = new Compra(carrito)
     alert(`El costo total es de $ ${shopping.obtenerSubtotal()}`)
-    let respuesta = confirm("¿Deseas confirmar tu pago?")
+    let respuesta = confirm("¿Desea confirmar su pago?")
         if (respuesta) {
             alert(shopping.confirmarCompra())
             carrito.length = 0
