@@ -16,11 +16,27 @@
   min-height: 80vh;
   background-image: url(../assets/backgroundMain.jpg);
 }
-.sombra {
+.productos {
   background-color: #40474e87;
   min-height: 80vh;
 }
-.div-cotizar {
+.cards {
+  display: flex;
+  justify-content: space-evenly;
+}
+.card {
+  color: black;
+}
+.nivelar1 {
+  padding-top: 26px;
+}
+.nivelar24 {
+  padding-top: 53px;
+}
+.nivelar3 {
+  padding-top: 78px;
+}
+.instrucciones {
   margin: 20px;
   padding: 20px;
   text-align: center;
@@ -76,5 +92,3 @@
 hr {
   border-top: 2px solid orange !important;
 }
-
-

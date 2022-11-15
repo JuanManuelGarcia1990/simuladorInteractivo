@@ -1,9 +1,9 @@
 const carrito = []
 
-const productos = [{codigo: 1, tipo: 'Monitor Samsung 24 pulgadas', precio: 62599},
-                   {codigo: 2, tipo: 'Cpu Ryzen5 3400G Ssd 1tb 16gb', precio: 123859},
-                   {codigo: 3, tipo: 'Cpu Ryzen7 5700G Ssd 1tb 32gb', precio: 175500},
-                   {codigo: 4, tipo: 'Cpu I7 10700F GTX 1660TI 6GB Ssd 1tb 32gb', precio: 245879},
+const productos = [{codigo: 1, tipo: 'Monitor Samsung 24 pulgadas curvo', precio: 62599},
+                   {codigo: 2, tipo: 'Cpu Ryzen5 5600G', precio: 113859},
+                   {codigo: 3, tipo: 'Cpu Ryzen7 4750G', precio: 155500},
+                   {codigo: 4, tipo: 'Cpu I7 12700', precio: 185879},
                    {codigo: 5, tipo: 'Teclado mecánico gamer Philips', precio: 7850},
                    {codigo: 6, tipo: 'Mouse Gamer Logitech', precio: 12300}]
 
