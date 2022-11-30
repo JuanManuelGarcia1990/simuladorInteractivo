@@ -7,6 +7,11 @@
   margin: 0;
   box-sizing: border-box;
 }
+
+tbody img {
+  max-width: 50%;
+}
+
 .backgroundHeader {
   min-height: 28vh;
   background: linear-gradient(56deg, #00072f, transparent);
